@@ -98,6 +98,10 @@ function ubah($data) {
 	} else {
 		$gambar=upload();
 	}
+
+        if (!gambar) {
+         return false;
+        }
 	
 
 	
