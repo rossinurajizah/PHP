@@ -99,7 +99,7 @@ function ubah($data) {
 		$gambar=upload();
 	}
 
-        if (!gambar) {
+        if (!$gambar) {
          return false;
         }
 	
